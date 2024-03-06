@@ -8,8 +8,8 @@ from babel.numbers import format_currency
 st.header('MTX BIKE :rage: ')
 st.subheader('The Only Place you can Rent A BIKE :triumph: :triumph:')
 
-day_df = pd.read_csv("https://raw.githubusercontent.com/felixb177/analisisdata/main/Bike-sharing-dataset/day.csv")
-hour_df = pd.read_csv("https://raw.githubusercontent.com/felixb177/analisisdata/main/Bike-sharing-dataset/hour.csv")
+day_df = pd.read_csv("https://raw.githubusercontent.com/felixb177/analisisdata/main/data/day.csv")
+hour_df = pd.read_csv("https://raw.githubusercontent.com/felixb177/analisisdata/main/data/hour.csv")
 
 datetime_columns = ["dteday"]
 for column in datetime_columns:
